@@ -6,11 +6,6 @@ const questions = () => {
     return inquirer.prompt([
         {
             type: 'input',
-            name: 'username',
-            message: 'What is your Github username?',
-        },
-        {
-            type: 'input',
             name: 'title',
             message: 'What is the title of your application or webpage?',
         },
@@ -45,10 +40,15 @@ const questions = () => {
             message: 'What is your email address?',
         },
         {
+            type: 'input',
+            name: 'username',
+            message: 'What is your Github username?',
+        },
+        {
             type: "list",
             name: "license",
             message: "What license does our project have?",
-            choices: ["MIT", "APACHE2.0", "Boost1.0", "GLP3.0", "BSD2", "BSD3", "None"]
+            choices: ["MIT", "Apache License 2.0", "GNU General Public License 3.0", "BSD 2-Clause", "BSD 3-Cause", "Boost 1.0", "Creative Commons Zero 1.0", "Eclipse Public 1.0", "None"]
         },
     ]);
 };
