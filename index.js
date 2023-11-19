@@ -53,10 +53,6 @@ const questions = () => {
     ]);
 };
 
-// //Template to create the README
-// const generateREADME = ({username, title, description, install, usage, contributors, tests, input, license}) =>
-// ``
-
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {}
 
