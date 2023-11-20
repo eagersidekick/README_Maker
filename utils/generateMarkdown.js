@@ -53,8 +53,14 @@ function generateMarkdown(data) {
   ## Description
   ${data.description}
   ${renderLicenseSection(data.license)}
-  ## Table of Contents
 
+  ## Table of Contents
+  * [Installation](#installation)
+  * [Usage](#usage)
+  * [Contributing](#contributing)
+  * [Tests](#tests)
+  * [Questions](#questions)
+  
   ## Installation
   ${data.install}
 
@@ -68,7 +74,7 @@ function generateMarkdown(data) {
   ${data.tests}
 
   ## Questions
-  Please contact me at ${data.email} or at my github username: ${data.username}.
+  Please contact me at ${data.email} or at [Github](https://github.com/${data.username}).
 `;
 }
 
