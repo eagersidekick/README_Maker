@@ -1,7 +1,8 @@
 # README Maker
 
   ## Description
-  README Maker is an application to streamline creating quality READMEs. When activated, that app will ask a series of questions and compile the answers into a professional, quality README.
+  README Maker is an application to allow users to create quality READMEs. Users can answer questions in the terminal and README Maker will compile their answers into a professional and sleek README.
+
   ## License
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) <br>
   [License: MIT](https://opensource.org/licenses/MIT) <br>
@@ -14,14 +15,24 @@
   * [Tests](#tests)
   * [Questions](#questions)
   
+  ## Installation
+  Users can activate the application by opening index.js in the command line with "node index.js".
+
   ## Usage
-  Users may use the application to create a README for any project.
+  Users have the right to user this application to create README for their own applications.
 
   ## Contributing
-  Heather Crawford (@EagerSidekick)
+  Heather Crawford
 
-  ## Screen Shots
-  ![A screenshot of the working application](image.png)
+  ## Tests
+  This README was created using the application!
+
+  ## Screenshots
+  ![image](/images/image.png)
+
+  ## Links
+  Link to repo: https://github.com/eagersidekick/README_Maker
+  Link to video demo: https://drive.google.com/file/d/1qRaA6mt-kbghFBvgLjsd3aHSohOysetl/view?usp=drive_link
 
   ## Questions
   Please contact me at heather.crawford.ela@gmail.com or at [Github](https://github.com/EagerSidekick).
